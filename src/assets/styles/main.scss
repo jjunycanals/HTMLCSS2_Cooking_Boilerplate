@@ -1,5 +1,4 @@
-/**
- * Use this file to import partials.
+/*** Use this file to import partials.
  * Do not include SCSS code in this file.
  */
 
@@ -8,6 +7,7 @@
  */
 
 @import "variables";
+@import "colors";
 
 /**
  * Import npm dependencies
@@ -15,6 +15,7 @@
  * see commented examples below
  */
 
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
 
@@ -24,6 +25,8 @@
  */
 
 @import "layouts/home";
+@import "layouts/nav";
+@import "layouts/sites";
 
 /**
  * Do NOT include anything else in this file!

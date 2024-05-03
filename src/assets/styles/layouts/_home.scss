@@ -6,33 +6,53 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  margin: 0;
   padding: 2rem;
+  margin: 0;
   font-family: $font-family-sans-serif;
   font-size: 16px;
   line-height: 24px;
-  background-color: $uoc-bg;
   color: $uoc-corporate;
+  background-color: $uoc-bg;
 }
 
 .uoc-container {
-  max-width: 800px;
-  margin: auto;
+  max-width: 70%;
   padding: 2rem;
-  border-radius: 2rem;
+  margin: 1% auto;
   text-align: center;
   background-color: #fff;
+  border-radius: 2rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
 
+  .botons {
+    width: 60%;
+    padding: 1%;
+    margin: auto;
+    background-color: $uoc-masterbrand;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 0 1px 6px 1px gray;
+    transition: .2s;
+  }
+  .botons:hover {
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 850px) {
+  .uoc-container img {
+    width: 80%;
+    height: auto;
+  }
+}
 .uoc-logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1.5rem;
   max-width: 200px;
   height: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
 
   @media (min-width: $mqMinWidth) {
     max-width: none;
@@ -43,6 +63,7 @@ body {
   font-family: $font-family-serif;
   font-size: 24px;
   font-weight: 700;
+  line-height: 1.4;
   color: $uoc-corporate;
 
   @media (min-width: $mqMinWidth) {
@@ -51,7 +72,18 @@ body {
 }
 
 .uoc-footer {
+  padding: 3%;
   margin-top: 1.5rem;
   font-size: 0.75rem;
+  color: white;
   text-align: center;
+  background-color: black;
+
+}
+
+.uoc-spa {
+  width: 80%;
+  margin: 5% auto;
+  border-top: 2px solid #ccc;
+  border-top-color: $uoc-corporate;
 }
