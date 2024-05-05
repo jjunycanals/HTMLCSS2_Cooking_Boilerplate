@@ -1,64 +1,75 @@
-const sites =
-[
+const chefs = [
   {
-    "titol": "Central Park",
-    "lloc": "New York, NY",
+    "titol": "Chef One",
+    "lloc": "Los Angeles, LA",
     "data": "",
     "discount": "5",
     "price": "6",
     "detall": {
-        "text": "Central Park is an urban park in New York City located between the Upper West and Upper East Sides of Manhattan. It is the most visited urban park in the United States and one of the most filmed locations in the world.",
-        "multimedia": "logo.png",
-        "sizemultimedia": ["central_park.jpg", "central_park_large.jpg", "central_park_xlarge.jpg"]
+        "text": "Aquest xef és un expert en la cuina mediterrània, amb una experiència de més de 15 anys en la preparació de plats inspirats en la regió. Ha treballat en diversos restaurants de renom a la costa mediterrània, guanyant reconeixement per les seves combinacions úniques de sabors i la seva presentació impecable.",
+        "multimedia": "avatar.png",
+        "sizemultimedia": []
     }
   },
   {
-    "titol": "Times Square",
-    "lloc": "New York, NY",
+    "titol": "Chef Two",
+    "lloc": "Boston, BS",
     "data": "",
     "discount": "7",
     "price": "68",
     "detall": {
-        "text": "Times Square is a major commercial and entertainment hub in the heart of New York City. It is known for its bright lights, Broadway shows, and bustling atmosphere, making it one of the most iconic destinations in the world.",
-        "multimedia": "timessquare.webp",
-        "sizemultimedia": ["timessquare.webp", "timessquare.webp", "timessquare.webp"]
+        "text": "Aquest xef és un defensor de la cuina tradicional catalana, amb una passió per preservar i reinterpretar els plats clàssics. Amb més de dues dècades d'experiència, el seu restaurant a Barcelona és un referent de la cuina catalana moderna, oferint una experiència culinària única als comensals.",
+        "multimedia": "avatar.png",
+        "sizemultimedia": []
     }
   },
   {
-    "titol": "Statue of Liberty",
-    "lloc": "New York Harbor, NY",
+    "titol": "Chef Three",
+    "lloc": "Smallville, MI",
     "data": "",
     "discount": "5",
     "price": "99",
     "detall": {
-        "text": "The Statue of Liberty is a symbol of freedom and democracy located on Liberty Island in New York Harbor. It was a gift from France to the United States and has welcomed immigrants and visitors to New York City for over a century.",
-        "multimedia": "liberty.png",
-        "sizemultimedia": ["liberty.png", "liberty.png", "liberty.png"]
+        "text": "Aquest xef és un expert en cuina internacional, amb una experiència diversificada en cuines de tot el món. És conegut per la seva capacitat de fusionar sabors i tècniques de diferents cultures per crear plats únics i innovadors que captiven els paladars dels comensals.",
+        "multimedia": "avatar.png",
+        "sizemultimedia": []
     }
   },
   {
-    "titol": "Empire State Building",
+    "titol": "Chef Four",
     "lloc": "New York, NY",
     "data": "",
     "discount": "3",
     "price": "80",
     "detall": {
-        "text": "The Empire State Building is an iconic skyscraper located in Midtown Manhattan. It offers breathtaking views of New York City from its observation decks and is a symbol of American innovation and engineering.",
-        "multimedia": "Empire_State.png",
-        "sizemultimedia": ["Empire_State.png", "Empire_State.png", "Empire_State.png"]
+        "text": "Aquest xef és un defensor de la cuina de mercat, amb una passió per utilitzar ingredients frescos i de temporada en els seus plats. Amb una formació en restaurants de tota Espanya, combina la tradició amb la innovació per crear experiències gastronòmiques úniques als seus clients.",
+        "multimedia": "avatar.png",
+        "sizemultimedia": []
     }
   },
   {
-    "titol": "Brooklyn Bridge",
-    "lloc": "New York, NY",
+    "titol": "Chef Five",
+    "lloc": "San Franciso, LA",
     "data": "",
     "discount": "13",
     "price": "90",
     "detall": {
-        "text": "The Brooklyn Bridge is a historic suspension bridge that spans the East River between Manhattan and Brooklyn. It is one of the oldest roadway bridges in the United States and has become an iconic symbol of New York City.",
-        "multimedia": "brooklyn_bridge.jpg",
-        "sizemultimedia": ["brooklyn_bridge.jpg", "brooklyn_bridge_large.jpg", "brooklyn_bridge_xlarge.jpg"]
+        "text": "Aquest xef té una dedicació especial a la cuina vegetariana, explorant la riquesa i diversitat dels productes vegetals. És conegut per la seva creativitat i el seu enfocament innovador a l'hora de preparar plats sans, saborosos i sostenibles que sorprenen i deleiten els comensals.",
+        "multimedia": "avatar.png",
+        "sizemultimedia": []
+    }
+  },
+  {
+    "titol": "Chef Six",
+    "lloc": "New York, NY",
+    "data": "",
+    "discount": "10",
+    "price": "110",
+    "detall": {
+        "text": "Aquest xef és un visionari de la cuina de fusió, combinant influències culinàries de tot el món per crear experiències gastronòmiques úniques. Amb una formació eclèctica i una passió per l'experimentació, ofereix una proposta culinària innovadora i emocionant als seus clients.",
+        "multimedia": "avatar.png",
+        "sizemultimedia": []
     }
   }
 ]
-export default sites;
+export default chefs;

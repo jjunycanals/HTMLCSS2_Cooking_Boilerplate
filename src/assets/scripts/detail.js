@@ -1,5 +1,5 @@
-import sites from './data.js';
-var datosjson = sites;
+import chefs from './data.js';
+var datosjson = chefs;
 
 function printDetail() {
     const content = document.getElementById('sites-detail');

@@ -13,6 +13,7 @@
   margin: auto;
 }
 .sites-img {
+  border-radius: 20px;
   width: 100%;
   height: 200px;
   text-align: center;
@@ -21,9 +22,14 @@
   background-size: cover;
   transition: .2s;
 }
+.sites img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
 .sites{
   border-radius: 20px;
-  box-shadow: 0 1px 6px 1px rgba(0,0,0,0.1);
+  min-width: 220px;
   transition: .2s;
 }
 /* Desplaçar superiorment el content de cada category quan es passa per sobre */
@@ -103,10 +109,16 @@
   .content {
     grid-template-columns: repeat(2, 1fr)
   }
+  .sites img {
+    height: auto;
+  }
 }
 /* En pantalles petites de movil fer 1 sola columna */
 @media (max-width: 600px) {
   .content {
     grid-template-columns: repeat(1, 1fr)
+  }
+  .sites img {
+    height: auto;
   }
 }

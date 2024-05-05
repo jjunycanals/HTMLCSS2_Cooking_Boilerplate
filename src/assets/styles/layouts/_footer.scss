@@ -1,0 +1,50 @@
+.uoc-footer {
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 0fr 0fr 5fr 1fr;
+  gap: 0;
+  border-top: 2px solid var(--third-color);
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: white;
+}
+.anell {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.cercle-interior {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 40%;
+  height: 30%;
+  border: 2px solid var(--analogue-color-2);
+  border-radius: 50%;
+}
+
+.cercle-interior i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: var(--analogue-color-2);
+}
+
+.logo-text {
+  margin: 20% 0%;
+  color: var(--analogue-color-2);
+  font-weight: 900;
+}
+
+.pages{
+  padding: 0;
+  margin: 0;
+}
+
+.social {
+  color: var(--analogue-color-2);
+}
