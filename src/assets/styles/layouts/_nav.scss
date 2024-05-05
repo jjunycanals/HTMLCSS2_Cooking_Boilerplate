@@ -5,8 +5,11 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  color: var(--analogue-color-2) !important;
+  color: var(--secondary-color) !important;
   overflow: hidden;
+}
+.bg-custom {
+  background-color: var(--primary-color);
 }
 .nav ul {
   position: sticky;
@@ -31,7 +34,7 @@
 }
 /*  Per canviar el color del link quan passem per sobre */
 .nav li a:hover {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 /* Per saber on som de la pagina i quedi en el nav reflexat*/
 .nav .active a {
@@ -50,7 +53,7 @@
 
 /* Add logo in NAV */
 .div-cercle {
-  position: fixed;
+  position: absolute;
   width: 100px;
   height: 100px;
 }
@@ -60,7 +63,7 @@
   left: 10%;
   width: 40%;
   height: 30%;
-  border: 2px solid var(--analogue-color-2);
+  border: 2px solid var(--secondary-color);
   border-radius: 50%;
 }
 
@@ -70,12 +73,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  color: var(--analogue-color-2);
+  color: var(--secondary-color);
 }
 
 .text-logo {
   margin: 20% 0%;
-  color: var(--analogue-color-2);
+  color: var(--secondary-color);
   font-weight: 900;
   transform: translate(120%, -10%);
 }
