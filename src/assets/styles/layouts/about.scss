@@ -1,27 +1,83 @@
 header {
-  background-color: #f8f9fa;
   padding: 20px;
   text-align: center;
+  background-color: #f8f9fa;
 }
 
 main {
   padding: 20px;
 }
 
-article {
-  margin-bottom: 40px;
-}
-
-h2 {
-  color: #007bff;
-  margin-bottom: 20px;
-}
-
 ul {
-  list-style-type: disc;
   margin-left: 20px;
+  list-style-type: disc;
+}
+
+.about {
+  padding: 0% 20%;
+  margin: 2% 5%;
+  text-align: justify;
+}
+
+.accordion-custom {
+  padding: 0% 5%;
+  margin: 1% 10%;
+}
+
+.title-accordion {
+  margin-bottom: 0;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+/* Estil per a blocs de cita dins dels articles */
+/* Faig servir les pseudoclasses :has i :where per la cita en l'article */
+article:where(:has(blockquote)) blockquote {
+  padding-left: 5%; /* Espaiat interior per a destacar el contingut */
+  margin-right: 5%;
+  margin-left: 5%;
+  border-left: 5px solid $uoc-masterbrand; /* Marc lateral */
+}
+
+article blockquote {
+  font-style: italic;
+  color: var(--third-color);
+}
+
+article blockquote footer {
+  text-align: right;
+}
+
+/* Estils entre h2 i p*/
+article :is(h2,p) {
+  margin-bottom: 3%; /* Espaiat inferior entre títols i pàrrafs */
 }
 
 .carousel {
- max-width: 80%;
+ margin: 2% 5%;
+}
+
+@media (max-width: 1050px) {
+  .about {
+    padding: 0% 8%;
+    margin: 2% 2%;
+  }
+
+  .accordion-custom {
+    padding: 0% 2%;
+    margin: 1% 5%;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .about {
+    padding: 0% 8%;
+    margin: 2% 2%;
+  }
+
+  .accordion-custom {
+    padding: 0% 2%;
+    margin: 1% 5%;
+  }
 }

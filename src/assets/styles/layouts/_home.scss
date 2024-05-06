@@ -28,6 +28,7 @@ body {
   justify-content: space-evenly;
 
 }
+
 .foto-grid{
   width: 100%;
   height: auto;
@@ -35,38 +36,38 @@ body {
   text-align: center;
 }
 
-.c0{
+.cc0{
   grid-column: 1/4;
 }
 
-.c1{
+.cc1{
   animation: goRightDown 1s ease-in;
 }
 
-.c1:hover, .c3:hover, .c4:hover, .c6:hover {
+.cc1:hover, .cc3:hover, .cc4:hover, .cc6:hover {
   clip-path: circle(40% at 50% 50%);
 }
 
-.c2, .c5{
-  color: var(--secondary-color);
+.cc2, .cc5{
   justify-content: center;
   padding: 20% 20%;
+  color: var(--secondary-color);
 }
 
-.c2:hover, .c5:hover {
+.cc2:hover, .cc5:hover {
   box-shadow: 0 1px 14px 2px rgba(0,0,0,0.15);
   transform: translateY(-4px);
 }
 
-.c3 {
+.cc3 {
   animation: goLeftDown 1s ease-in;
 }
 
-.c4 {
+.cc4 {
   animation: goRightUp 1s ease-in;
 }
 
-.c6 {
+.cc6 {
   animation: goLeftUp 1s ease-in;
 }
 
@@ -88,8 +89,8 @@ body {
   font-family: $font-family-serif;
   font-size: 30px;
   line-height: 1.4;
-  text-align: center;
   color: var(--secondary-color);
+  text-align: center;
 
   @media (min-width: $mqMinWidth) {
     font-size: 36px;

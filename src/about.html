@@ -14,33 +14,86 @@
 </head>
 <body>
     <include src="./views/nav.html"></include>
-    <header><h1>Concurs de Cuina - Informació</h1></header>
+    <header>
+        <h1 class="uoc-title"><i class="fa-solid fa-play"></i> Blog de Cuina - Informació</h1>
+        <address>
+            <p>Escrit per: Jordi Juny Canals</p>
+        </address>
+    </header>
     <main>
-        <article>
-            <h2>Regles del Concurs</h2>
-            <ul>
-                <li>Cada participant podrà presentar un plat únic.</li>
-                <li>Els plats han de ser preparats en directe davant del jurat.</li>
-                <li>Es valorarà la presentació, el sabor i la originalitat dels plats.</li>
-                <li>Els participants hauran de portar tots els ingredients necessaris per a la seva preparació.</li>
-            </ul>
+        <article class="about">
+            <h2 class="uoc-title">Welcome</h2>
+            <p>Benvinguts al <i>Cooking Competition</i>! Aquest esdeveniment emocionant té com a objectiu principal promoure la creativitat culinària i celebrar els talents gastronòmics locals. Des de la riquesa de la nostra cultura culinària fins a la diversitat dels nostres ingredients, el concurs ofereix una plataforma per als cuiners aficionats i professionals per demostrar les seves habilitats i compartir les seves creacions culinàries amb la comunitat.</p>
+            <p>El concurs no només busca reconèixer els millors plats, sinó també fomentar la passió per la cuina, l'experimentació amb nous sabors i tècniques, i la col·laboració entre cuiners de diferents nivells d'experiència. És una oportunitat per aprendre, créixer i inspirar-se a través de la gastronomia.</p>
         </article>
-        <article>
-            <h2>Lloc del Concurs</h2>
-            <p>El concurs de cuina tindrà lloc al Palau de Congressos de Barcelona, situat al centre de la ciutat.</p>
-            <p>Adreça: Plaça d'Espanya, 1, 08014 Barcelona</p>
-        </article>
-        <article>
-            <h2>Detalls del Concurs</h2>
-            <p>El concurs de cuina es durà a terme el proper dissabte, 15 de juny, de 10:00 a 17:00 hores.</p>
-            <p>Per participar en el concurs, cal inscriure's prèviament a través del nostre lloc web.</p>
-        </article>
-        <article>
-            <h2>Imatges del Concurs</h2>
+        <div class="accordion accordion-custom" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    <div class="title-accordion"><i class="fa-solid fa-1"></i>  - Regles del Concurs <i class="fa-solid fa-layer-group"></i></div>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    <p>Aquestes son les regles del concurs:</p>
+                    <ul>
+                        <li>Cada participant podrà presentar un plat únic.</li>
+                        <li>Els plats han de ser preparats en directe davant del jurat.</li>
+                        <li>Es valorarà la presentació, el sabor i la originalitat dels plats.</li>
+                        <li>Els participants hauran de portar tots els ingredients necessaris per a la seva preparació.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    <div class="title-accordion"><i class="fa-solid fa-2"></i>  - Lloc del Concurs  <i class="fa-solid fa-location-dot"></i></div>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p>El <i>Cooking Competition</i> tindrà lloc al Palau de Congressos de Barcelona, situat al centre de la ciutat.</p>
+                    <p>Adreça: Plaça d'Espanya, 1, 08014 Barcelona</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    <div class="title-accordion"><i class="fa-solid fa-3"></i>  - Detalls del Concurs <i class="fa-solid fa-paper-plane"></i></div>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+
+                    <p>El <i>Cooking Competition</i> es durà a terme el proper dissabte, 15 de juny, de 10:00 a 17:00 hores.</p>
+                    <p>Per participar en el concurs, cal inscriure's prèviament a través del nostre lloc web.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <article class="about">
+            <h2 class="uoc-title"><i>Cooking Competition</i>: Tradició i Innovació</h2>
+            <h4>Tradició</h4>
+            <p>El <i>Cooking Competition</i> de la nostra comunitat és una tradició que es remunta a més de dues dècades enrere. És un esdeveniment anual que reuneix els millors talents culinaris de la regió, oferint una plataforma per exhibir la seva creativitat i habilitats en la cuina.</p>
+            <p>Des dels seus modestos inicis en un petit recinte comunitari, el concurs ha crescut de manera exponencial al llarg dels anys, convertint-se en un esdeveniment reconegut a nivell regional. El seu èxit rau en la seva capacitat d'evolucionar i adaptar-se als canvis en els gustos i les tendències culinàries.</p>
+            <p>A través dels anys, hem vist una diversificació en les categories i els criteris de puntuació del concurs. Els participants s'enfronten a reptes culinaris cada vegada més exigents, des de la preparació de plats tradicionals fins a la innovació en la fusió de sabors i tècniques culinàries.</p>
+            <h4>Innovació</h4>
+            <p>Al concurs també hi ha un fort enfocament en la sostenibilitat i l'ús d'ingredients locals i de temporada. Els jurats, formats per reconeguts xefs i experts en gastronomia, valoren no només el sabor i la presentació dels plats, sinó també els principis ètics i ambientals que guien la seva preparació.</p>
+            <blockquote>
+                "El <i>Cooking Competition</i> és més que una competició; és una celebració de la nostra cultura culinària i una oportunitat per reunir-nos com a comunitat per gaudir de la gastronomia local."
+                <footer>- CEO del concurs</footer>
+            </blockquote>
+            <p>Aquest any, malgrat els desafiaments presents, estem emocionats de continuar la tradició i veure com els nostres cuiners locals segueixen sorprenent-nos amb les seves creacions culinàries. El <i>Cooking Competition</i> és una oportunitat per compartir la nostra passió per la cuina i celebrar la diversitat i la creativitat que ens defineix com a comunitat.</p>
+
+        </article class="about">
+        <article class="carousel">
+            <h2 class="uoc-title">Imatges del Concurs</h2>
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/images/ad4.png" class="d-block w-100" alt="Imatge de la home page">
+                        <img src="./assets/images/ad5.png" class="d-block w-100" alt="Imatge de la home page">
                     </div>
                     <div class="carousel-item">
                         <img src="./assets/images/nj.png" class="d-block w-100" alt="Imatge de la home page">
