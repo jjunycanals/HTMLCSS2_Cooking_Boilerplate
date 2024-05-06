@@ -1,0 +1,20 @@
+form{
+  margin: 5% 20%;
+}
+.botons {
+  width: 100%;
+  max-width: fit-content;
+  padding: 1% 4%;
+  margin: 2% 20%;
+  background-color: $uoc-masterbrand;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 15px;
+  align-content: center;
+  box-shadow: 0 1px 6px 1px gray;
+  transition: .2s;
+}
+
+.botons:hover {
+  transform: scale(1.1);
+}
