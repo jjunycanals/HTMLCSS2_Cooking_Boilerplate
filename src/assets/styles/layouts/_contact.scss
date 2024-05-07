@@ -1,21 +1,44 @@
 form{
   margin: 5% 20%;
+  @media (max-width: 450px) {
+    margin: 0;
+  }
 }
 
 .botons {
+  position: relative;
   align-content: center;
   width: 100%;
   max-width: fit-content;
-  padding: 1% 4%;
+  padding: 2% 5%;
   margin: 2% 20%;
-  background-color: $uoc-masterbrand;
-  border-color: gray;
+  background: repeating-conic-gradient(
+    from var(--a),
+    $uoc-masterbrand 0%,
+    $uoc-masterbrand 5%,
+    transparent 5%,
+    transparent 40%,
+    $uoc-masterbrand 50%
+  );
+  border-color: var(--analogue-color-1);
   border-style: solid;
   border-radius: 15px;
-  box-shadow: 0 1px 6px 1px gray;
+  box-shadow: 0 1px 6px 1px var(--analogue-color-2);
   transition: .2s;
+  animation: animate 4s linear infinite;
 }
 
 .botons:hover {
   transform: scale(1.1);
+}
+
+@property --a {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes animate {
+  0% { --a: 0deg; }
+  100% { --a: 360deg;}
 }

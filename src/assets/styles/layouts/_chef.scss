@@ -65,6 +65,17 @@
 }
 
 /* Fem alguns elements responsius després de crear el grid */
+@media (max-width: 1400px) {
+  .uoc-spa{
+    width: 100%;
+    margin: 1% auto;
+  }
+  .chef img {
+    height: auto;
+  }
+}
+
+/* Fem alguns elements responsius després de crear el grid */
 @media (max-width: 840px) {
   .content {
     grid-template-columns: repeat(2, 1fr)

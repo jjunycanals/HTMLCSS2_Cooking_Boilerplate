@@ -9,6 +9,7 @@
   background-color: white;
   border-top: 2px solid var(--third-color);
 }
+
 .anell {
   position: relative;
   width: 100px;
@@ -46,5 +47,15 @@
 }
 
 .social {
+  margin: 10% 0%;
   color: var(--analogue-color-2);
+}
+
+/* Fem alguns elements responsius després de crear el grid */
+@media (max-width: 450px) {
+  .uoc-footer {
+    grid-template-columns: 0fr 0fr 2fr 0fr;
+    gap: 0;
+    padding: 3%;
+  }
 }

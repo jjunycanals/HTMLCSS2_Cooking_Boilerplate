@@ -13,6 +13,10 @@ body {
   line-height: 24px;
   color: $uoc-corporate;
   background-color: var(--background) !important;
+  @media (max-width: 450px) {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .uoc-container {
@@ -20,13 +24,31 @@ body {
   padding: 2rem;
   margin: 1% auto;
   text-align: center;
+  @media (max-width: 1450px) {
+    max-width: none;
+  }
+  @media (max-width: 900px) {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+  @media (max-width: 450px) {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .grid-container{
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-evenly;
-
+  @media (max-width: 900px) {
+    grid-template-columns: 50% 50%;
+  }
+  @media (max-width: 450px) {
+    grid-template-columns: 100%;
+  }
 }
 
 .foto-grid{
@@ -38,6 +60,12 @@ body {
 
 .cc0{
   grid-column: 1/4;
+  @media (max-width: 900px) {
+    grid-column: 1/3;
+  }
+  @media (max-width: 450px) {
+    grid-column: 1/2;
+  }
 }
 
 .cc1{
