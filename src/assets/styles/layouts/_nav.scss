@@ -7,7 +7,7 @@
   margin: 0;
   overflow: hidden;
   color: var(--secondary-color) !important;
-  
+
 }
 .bg-custom {
   background-color: var(--primary-color);
@@ -38,8 +38,8 @@
   background-color: var(--secondary-color);
 }
 /* Per saber on som de la pagina i quedi en el nav reflexat*/
-.nav .active a {
-  background-color: var(--active-color);
+.nav .nav-link.active {
+  background-color: var(--secondary-color);
 }
 .title-header {
   width: 100%;
