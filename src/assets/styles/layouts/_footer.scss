@@ -54,7 +54,7 @@
 /* Fem alguns elements responsius després de crear el grid */
 @media (max-width: 450px) {
   .uoc-footer {
-    grid-template-columns: 0fr 0fr 2fr 0fr;
+    grid-template-columns: 0fr 0fr 1fr 1fr;
     gap: 0;
     padding: 3%;
   }
